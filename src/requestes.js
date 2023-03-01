@@ -1,6 +1,6 @@
 const API_KEY = process.env.REACT_APP_API_KEY;
 
-// https://api.themoviedb.org/3/trending/all/day?api_key=ae8f49e4188d3653503e88a97474d8c4
+
 
 const requests = {
     fetchTrending: `/trending/all/day?api_key=${API_KEY}`,
